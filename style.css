@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,18 +8,18 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 
 nav {
-    background: #f1faff;
-    color: #3d4756;
+    background: linen;
+    color: darkgoldenrod;
     position: relative;
     z-index: 10;
-    box-shadow: 0 0 2em 0 #cacde1;
+    box-shadow: 0 0 2em 0 grey;
 }
 
-.nav__inner {
+.navbar {
     max-width: 70rem;
     padding: 0 1.5em;
     margin: auto;
@@ -31,7 +34,7 @@ nav {
 }
 
 .nav__links {
-    display: flex;
+    display: none;
 }
 
 .nav__links li {
@@ -42,9 +45,9 @@ nav {
     display: block;
     text-decoration: none;
     padding: 1em;
-    font-weight: 400;
-    font-size: 1.2rem;
-    color: #3d4756;
+    font-weight: 300;
+    font-size: .9rem;
+    color: darkgoldenrod;
 }
 
 .nav__links li a:hover {
@@ -52,15 +55,11 @@ nav {
     
 }
 
-#hero {
+.hero {
     background: url(./bg.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
-}
-
-.nav__links {
-    display: none;
 }
 
 .nav__links.show {
